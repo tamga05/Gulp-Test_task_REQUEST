@@ -168,6 +168,7 @@
 .search {
     padding: 12px 188px 12px 189px;
     background-color: #e8e7e7;
+    display: flex;
 }
 
 .search_link {
@@ -177,6 +178,11 @@
     gap: 8px;
 }
 
+.search_link-portal {
+    max-width: 135px;
+    gap: 5px;
+}
+
 .search_span {
   /*margin: 0 0 6px 8px;*/
   /*margin-left: 8px;*/
@@ -184,4 +190,13 @@
     font-family: "Myriad Pro Regular", sans-serif;
     font-size: 33px;
     color: #171717;
+}
+
+.search_span-portal {
+    max-width: 95px;
+    height: 30px;
+    font-family: "Myriad Pro LightSemiExt", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #777777;
 }
